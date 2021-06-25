@@ -3,6 +3,8 @@ import App from "./App.vue";
 import router from "./router";
 import '../src/assets/style/theme.scss'
 
+Vue.config.devtools = true
+
 new Vue({
     router,
     render: (h) => h(App),

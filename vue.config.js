@@ -1,6 +1,6 @@
 module.exports = {
-    outputDir: 'dist',
+    productionSourceMap: true,
     publicPath: process.env.NODE_ENV === 'production'
-        ? '/new-test-cmtt/'
+        ? '/test-cmtt/'
         : '/'
 }
