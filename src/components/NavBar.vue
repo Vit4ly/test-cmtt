@@ -105,7 +105,7 @@ export default {
 .nav {
   padding: 30px 0 0;
   border: 1px solid rgb(88, 92, 98);
-  height: calc(100vh - 82px);
+  height: 100%;
   display: flex;
   flex-direction: column;
 
@@ -155,10 +155,6 @@ export default {
     li:last-of-type {
       margin-top: 30px;
     }
-  }
-
-  &__link-data {
-
   }
 
   &__library {
